@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import UserList from './components/UserList';
 import {users} from './usersData';
+import Test from './components/Test'
 
 function App() {
   
@@ -14,6 +15,8 @@ function App() {
   return (
     <div >
         <UserList list={myuser} callback={deleteCallback}/>
+
+        <Test />
     </div>
   );
 }
